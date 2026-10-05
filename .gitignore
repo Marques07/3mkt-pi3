@@ -1,0 +1,51 @@
+# ============================================================
+# R - arquivos temporários e de ambiente
+# ============================================================
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.httr-oauth
+rsconnect/
+
+# ============================================================
+# LaTeX - arquivos gerados na compilação
+# ============================================================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.xdv
+*.ps
+*.glg
+*.glo
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+
+# ============================================================
+# Sistema operacional
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Pasta Delete (arquivos a serem descartados)
+# ============================================================
+Delete/
