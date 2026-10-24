@@ -29,9 +29,10 @@ cfg <- list(
   rocchio = c(a = 1, b = 0.75, g = 0.15), # pesos do Rocchio
 
   # --- Aula 07: LSA e busca hibrida (decidir na Parte D da Aula 07) ------
-  modelo = "bm25",              # "bm25", "lsa" ou "hibrido"
-  lsa_k  = 20,                  # dimensoes do LSA
-  rrf_c  = 60,                  # constante da fusao RRF
+# --- Aula 07: LSA e busca hibrida --------------------------------------
+  modelo = "hibrido",                     # "bm25", "lsa" ou "hibrido"
+  lsa_k  = 20,                            # dimensoes do LSA
+  rrf_c  = 60,                            # constante da fusao RRF                # constante da fusao RRF
 
   # --- fim ----------------------------------------------------------------
   grupo = "3Mkt"                # ultimo campo, sem virgula depois
